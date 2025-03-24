@@ -7,11 +7,11 @@ import (
 	"github.com/slack-go/slack"
 )
 
-func main() {
+// func main() {
 
-	os.Setenv("SLACK_BOT_TOKEN", "xoxb-310246501329-2246808119766-C2TQU9hIq6qMt5vloSXVSkQ7")
-	os.Setenv("CHANNEL_ID", "C9478EZ7B")
-	api := slack.New(os.Getenv("SLACK_BOT_TOKEN"))
+// 	os.Setenv("SLACK_BOT_TOKEN", "xoxb-310246501329-2246808119766-C2TQU9hIq6qMt5vloSXVSkQ7")
+// 	os.Setenv("CHANNEL_ID", "C9478EZ7B")
+// 	api := slack.New(os.Getenv("SLACK_BOT_TOKEN"))
 	channelArr := []string{os.Getenv("CHANNEL_ID")}
 	fileArr := []string{"ZIPL.pdf"}
 
